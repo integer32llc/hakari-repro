@@ -12,7 +12,4 @@ publish = false
 # are managed by hakari.
 
 ### BEGIN HAKARI SECTION
-[dependencies]
-nom = { version = "7", features = ["alloc", "std"] }
-
 ### END HAKARI SECTION
