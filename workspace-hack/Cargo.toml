@@ -12,4 +12,10 @@ publish = false
 # are managed by hakari.
 
 ### BEGIN HAKARI SECTION
+[dependencies]
+regex-syntax = { version = "0.6", features = ["unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment"] }
+
+[build-dependencies]
+regex-syntax = { version = "0.6", features = ["unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment"] }
+
 ### END HAKARI SECTION
